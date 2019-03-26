@@ -7,11 +7,11 @@ This is a small project that I put together in `Python3`. It is a simulation of 
 
 With the help of [Matplotlib](https://matplotlib.org) and [Numpy](https://numpy.org) I was able to create a simple simulation of this game.
 
-By [Carlo Jacobs](http://carlojacobs.ga)
-
 ## Requirements
 In order to run this program, you have to have the following installed on your computer.
 1. [Python3](https://www.python.org)
 1. [Matplotlib](https://matplotlib.org)
 2. [Numpy](https://numpy.org)
 Run the program by running: `python3 gol.py`.
+
+By [Carlo Jacobs](http://carlojacobs.ga)
