@@ -12,6 +12,7 @@ In order to run this program, you have to have the following installed on your c
 1. [Python3](https://www.python.org)
 1. [Matplotlib](https://matplotlib.org)
 2. [Numpy](https://numpy.org)
+
 Run the program by running: `python3 gol.py`.
 
 By [Carlo Jacobs](http://carlojacobs.ga)
