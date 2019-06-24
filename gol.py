@@ -157,14 +157,19 @@ def start_game():
     """Initiate the game using user input"""
     y_size = int(input("Height of game: "))
     x_size = int(input("Width of game: "))
-    cells = int(input("Number of alive cells: "))
+    cells = int(input(f"Number of alive cells (out of {x_size*y_size}): "))
+    choice = input("Animation (A) or Command Line (B): ")
     global game
     game = Game(x_size, y_size, cells)
-    # game.run_game()
-    # Animation
-    ani1 = animation.FuncAnimation(fig, animate, interval=10)
-    ani2 = animation.FuncAnimation(fig, animate_num_of_cells, interval=10)
-    plt.show()
-
+    if choice == "B":
+    	game.run_game()
+    elif choice == "A":
+    	# Animation
+    	ani1 = animation.FuncAnimation(fig, animate, interval=10)
+    	ani2 = animation.FuncAnimation(fig, animate_num_of_cells, interval=10)
+    	plt.show()
+    else:
+    	print("Please choose something else.")
+    
 if __name__ == "__main__":
     start_game()
